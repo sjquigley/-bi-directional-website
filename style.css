@@ -1,0 +1,203 @@
+body, html{
+  height: 100%;
+  overflow: hidden;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  font-family:helvetica;
+    font-size: 20px
+}
+#container .box {
+    width: 100vh; 
+    height: 100vw;
+    display: inline-block;
+    position: relative;
+    padding: 10%;
+    box-sizing: border-box;
+}
+#container .box > div {
+    transform-origin: top left;
+    width: 92vw;
+    *height: 100vh;
+    transform: rotate(90deg) translateY(-82vh);
+    transform-origin: top left;
+}
+#container2 {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #FFF;
+    width: calc(100vh + 25px);
+    height: 100vw;
+    transform: rotate(270deg) translateX(-100%);
+  transform-origin: top left;
+  position: relative;
+    top: -25px;
+}
+#container {
+  
+}
+
+.one {
+  background-color: #FFF;
+}
+.two {
+  background-color: #FFF;
+}
+.three {
+  background-color: #FFF;
+}
+.four {
+  background-color: #FFF;
+}
+.five {
+  background-color: #FFF;
+}
+.six {
+  background-color: #130604;
+}
+.seven {
+  background-color: #130604;
+}
+.eight {
+  background-color: #130604;
+}
+.nine {
+  background-color: #FFF;
+}
+.ten {
+  background-color: #FFF;
+}
+.eleven {
+  background-color: #E84B30;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.center {
+  max-width: 328px;
+    text-align:center;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+p.left {
+  max-width: 800px;
+    text-align:left;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+p.right {
+  max-width: 800px;
+    text-align:right;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+
+h2.left {
+  max-width: 800px;
+    text-align:left;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+body {
+  margin:0;
+  font-family:Georgia;
+}
+#container .box {
+  width:100vw;
+  height:100vh;
+  display:inline-block;
+  position:relative;
+}
+#container .box > div {
+  width:100px;
+  height:100px;
+  font-size:96px;
+  color:#FFF;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin:-50px 0 0 -50px;
+  line-height:.7;
+  font-weight:bold;
+}
+#container {
+  overflow-y:scroll;
+  overflow-x:hidden;
+  transform: rotate(270deg) translateX(-100%);
+  transform-origin: top left;
+  background-color:#999;
+  position:absolute;
+  width:100vh;
+  height:100vw;
+}
+#container2 {
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+  white-space:nowrap;
+  font-size:0;
+}
+
+.one {
+  background-color: #FFF;
+}
+.two {
+  background-color: #49E83E;
+}
+.three {
+  background-color: #EDDE05;
+}
+.four {
+  background-color: #E84B30;
+}*/
